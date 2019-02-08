@@ -4,9 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SecondActivity">
+
+    <CheckBox
+        android:id="@+id/a_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/second_activity"/>
 
     <TextView
+        android:id="@+id/second_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World 2019!"
@@ -14,12 +21,5 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/second_activity_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/second_activity"
-        android:visibility="visible"/>
 
 </android.support.constraint.ConstraintLayout>
